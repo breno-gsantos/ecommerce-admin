@@ -17,7 +17,7 @@ export const BillboardClient: React.FC<BillboardClientProps> = ({data}) => {
   const router = useRouter();
   const params = useParams();
 
-  return (
+  return ( 
     <>
       <div className="flex items-center justify-between">
         <Heading title={`Billboards (${data.length})`} description="Manage billboard for your store" />
